@@ -1,5 +1,5 @@
 import axios from 'axios'
-export const baseUrl = "http://localhost:3008/api/v1"
+export const baseUrl = "https://immense-lake-45903.herokuapp.com/api/v1"
 
 export const authHeader = () => {
   const token = JSON.parse(localStorage.getItem('authToken'));
